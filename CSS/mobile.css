@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+	.header_pc {
+		display: none;
+	}
+	.about_me {
+		width: 480px;
+	}
+	.me_img {
+		height: 280px;
+	}
+	.about_me_text {
+		width: 320px;
+	}
+	.skills {
+		display: flex;
+		flex-direction: column;
+	}
+	.skills_card {
+		width: 440px;
+		margin-right: 0px;
+		margin-bottom: 24px;
+	}
+
+	.work_card {
+		flex-direction: column;
+	}
+	.work_card_right {
+		align-items: center;
+	}
+	.work_card_text {
+		width: 320px;
+	}
+	.work_img {
+		padding: 24px 100px;
+        margin-right: 0px;
+	}
+	.button_project {
+		width: 320px;
+        margin-left: 14px;
+	}
+	.project_title {
+		width: 320px;
+	}
+}
